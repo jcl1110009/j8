@@ -1,4 +1,4 @@
-当地的 Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+当地的 OrionLib = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 当地的window = Orion lib:make window({ Name =“zm”，HidePremium =错误的，保存配置=真实的，IntroText =“zm”，ConfigFolder =“zm”})
 当地的StarterGui = game:GetService(“StarterGui”)
 当地的玩家=游戏:GetService(“玩家”)
@@ -33,34 +33,40 @@ PremiumOnly =错误的
 loadstring(游戏:HttpGet(" https://raw。githubusercontent。com/yung engxin/roblox/refs/heads/main/r B-Hub "))();
 	结束
 })
-Tab:AddTextbox({
-	Name = "移动速度",
+选项卡:添加文本框({
+名称="移动速度",
 默认值="",
 文本消失=真实的,
 回拨=功能（值）
 游戏。players . 当地的 player . character . humanoid . walk speed = Value
 	结束	 
 })
-选项卡:添加切换({
+选项卡:添加开关（{
 名称="夜视",
 默认值=错误的,
 回拨=功能(值)
 		如果价值然后
-游戏照明。Ambient = Color3.new(1, 1, 1)
+游戏。Lighting.Ambient = Color3.new(1, 1, 1)
 		其他
-游戏照明。Ambient = Color3.new(0, 0, 0)
+游戏。Lighting.Ambient = Color3.new(0, 0, 0)
 		结束
 	结束
 })
 选项卡:添加按钮({
 名称="飞行",
 回拨=功能()
-loadstring(游戏:HttpGet(https://pastebin。' com/raw/u 27 yqrxs '))()
+loadstring（游戏:HttpGet（https://pastebin . com/raw/u 27 yqrxs))()
+	结束 
+})
+选项卡:添加按钮（{
+名称=“xk压力",
+回拨=功能()
+loadstring（游戏:HttpGet（https://raw . githubusercontent . com/DevSloPo/Main/refs/heads/Main/pressure))()
 	结束 
 })
 选项卡:添加按钮({
-名称=“xk压力",
+名称="伪名说话",
 回拨=功能()
-loadstring(游戏:HttpGet(https://raw。githubusercontent。' com/dev slopo/Main/refs/heads/Main/pressure '))()
+loadstring（游戏:HttpGet（）https://pastefy . ga/zCFEwaYq/raw‘),真实的))()
 	结束 
 })
